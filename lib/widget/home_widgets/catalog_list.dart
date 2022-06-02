@@ -1,4 +1,3 @@
-import 'package:catalog_app/models/cart.dart';
 import 'package:catalog_app/models/catalog.dart';
 import 'package:catalog_app/routes/home_detail_page.dart';
 import 'package:catalog_app/utils/key_constant.dart';
@@ -70,7 +69,7 @@ class CatalogItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            catalog.name.text.lg.color(context.theme.accentColor).make(),
+            catalog.name.text.lg.color(context.theme.colorScheme.secondary).make(),
             catalog.desc.text.textStyle(context.captionStyle!).make(),
             10.heightBox,
             ButtonBar(

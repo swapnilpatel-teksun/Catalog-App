@@ -76,16 +76,8 @@ J
 ios/Flutter/Debug.xcconfig,0\0\000e7013d35dd014f463168b55b75a1c98b25bb8
 D
 android/build.gradle,1\3\13f012f60e18f38225ce59137db2e07d5d70b29c
-I
-lib/widget/my_drawer.dart,4\9\490fe6ed12801c43b40abf16a32fec42c8bd4cff
 S
 #.idea/libraries/Flutter_Plugins.xml,e\8\e8bbc0fdfcefee9aa7b463c83a8a480b92333860
-K
-lib/widget/item_widget.dart,4\0\406fb567454faca5e4f8af36c6f9cd093eddf439
-[
-+lib/widget/home_widgets/catalog_header.dart,b\1\b1b18217561b5409e726b676a0adfe576707cfca
-F
-lib/widget/themes.dart,4\8\487decc439b43385c94b0f658c540769150894eb
 x
 Handroid/app/src/main/kotlin/com/coolandrodev/catalog_app/MainActivity.kt,4\c\4c2417b8a70e971b29e65c67b8dc2b6cfa5c3d27
 I
@@ -116,8 +108,6 @@ A
 web/manifest.json,0\3\035d93726e1f8a624dc6ebe37b7c38b7e6eb2f63
 >
 web/index.html,4\9\49767019a2fee22a613912508aa2789b74108680
-W
-'windows/flutter/generated_plugins.cmake,8\8\88ca6865187a33a9504c7309c5e20c833b7b0094
 N
 windows/flutter/CMakeLists.txt,7\7\771a7602debd631ba43a2ba87727b34822bf519b
 M
@@ -128,3 +118,19 @@ O
 -windows/flutter/generated_plugin_registrant.h,c\4\c4f32636ccc6ab3d0e1279d8d53341e15d62642b
 ^
 .windows/flutter/generated_plugin_registrant.cc,a\4\a460a0a443b57f23ba67cbcc77064889847c76a7
+K
+lib/utils/key_constant.dart,7\5\753efdb8689c164157dbf23ac1a04b4139c078f9
+P
+ lib/routes/home_detail_page.dart,6\f\6f17f4ed0799b3d22aaf2c5aa0193f80fd59cda4
+C
+lib/core/store.dart,7\d\7de7b3583aa1502a09384089df0a82a40ddaf806
+I
+lib/widget/my_drawer.dart,4\9\490fe6ed12801c43b40abf16a32fec42c8bd4cff
+X
+(lib/widget/home_widgets/add_to_cart.dart,b\9\b9983f8812d4c084b3f1fad2ec499fa60c9a43f7
+K
+lib/widget/item_widget.dart,4\0\406fb567454faca5e4f8af36c6f9cd093eddf439
+Z
+*lib/widget/home_widgets/catalog_image.dart,6\7\672fb4ab9a5c88e59ef65d04fd0618ac3b86f55e
+J
+lib/routes/login_page.dart,c\8\c8bbcdb4815e9dec3f2422f27231be054ab86bf5

@@ -8,8 +8,6 @@ class MyTheme {
       fontFamily: GoogleFonts.poppins().fontFamily,
       cardColor: Colors.white,
       canvasColor: creamColor,
-      accentColor: Colors.deepPurple,
-      buttonColor: darkBluishColor,
       appBarTheme: const AppBarTheme(
           color: Colors.white,
           iconTheme: IconThemeData(color: Colors.black),
@@ -21,8 +19,6 @@ class MyTheme {
           fontFamily: GoogleFonts.poppins().fontFamily,
           cardColor: Colors.black,
           canvasColor: creamDarkColor,
-          buttonColor: lightBluishColor,
-          accentColor: Colors.white,
           appBarTheme: const AppBarTheme(
               color: Colors.black,
               iconTheme: IconThemeData(color: Colors.white),
@@ -35,5 +31,4 @@ class MyTheme {
   static Color creamDarkColor = Vx.gray900;
   static Color darkBluishColor = const Color(0xff403b58);
   static Color lightBluishColor = Vx.indigo500;
-
 }

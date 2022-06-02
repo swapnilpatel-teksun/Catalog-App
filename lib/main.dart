@@ -1,4 +1,5 @@
 import 'package:catalog_app/core/store.dart';
+import 'package:catalog_app/error_page.dart';
 import 'package:catalog_app/routes/cart_page.dart';
 import 'package:catalog_app/routes/home_detail_page.dart';
 import 'package:catalog_app/routes/home_page.dart';
@@ -10,6 +11,12 @@ import 'package:url_strategy/url_strategy.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 void main() {
+  ErrorWidget.builder = (FlutterErrorDetails details) {
+    return MaterialApp(
+      home: ErrorPage(errorString: details.exception.toString()),
+    );
+  };
+
   setPathUrlStrategy();
   runApp(VxState(store: MyStore(), child: const MyApp()));
 }

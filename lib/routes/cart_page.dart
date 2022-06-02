@@ -41,7 +41,7 @@ class _CartTotal extends StatelessWidget {
                 return "\$${_cart.totalPrice}"
                     .text
                     .xl5
-                    .color(context.theme.accentColor)
+                    .color(context.theme.colorScheme.secondary)
                     .make();
               },
               notifications: const {}, mutations: const {RemoveMutation},
